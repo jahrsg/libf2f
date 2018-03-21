@@ -6,7 +6,7 @@ namespace libf2f {
 
 using namespace std;
 
-Connection::Connection( boost::asio::io_service& io_service, Router * r )
+Connection::Connection(boost::asio::io_service &io_service, Router * r )
     : m_socket(io_service), 
       m_ready(false),
       m_sending(false),

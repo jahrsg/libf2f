@@ -27,7 +27,7 @@ class Connection
 {
 public:
 
-    Connection( boost::asio::io_service& io_service, Router * r );
+    Connection(boost::asio::io_service &io_service, Router * r );
     
     ~Connection();
     
